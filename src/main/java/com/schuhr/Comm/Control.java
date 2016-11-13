@@ -33,6 +33,7 @@ public class Control implements Runnable {
 
 			DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
 
+			System.out.println("Packet reception starting...");
 			while (running) {
 				dsocket.receive(packet);
 
@@ -105,6 +106,7 @@ public class Control implements Runnable {
 	
 	public void Stop(){
 		running = false;
+		System.out.println("Thread closing");
 	}
 
 }

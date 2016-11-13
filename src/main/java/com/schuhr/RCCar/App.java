@@ -10,6 +10,7 @@ public class App {
 		System.out.println("Hello World!");
 
 		Control pb = new Control("thread1");
+		System.out.println("Starting thread.");
 		pb.Start();
 
 		do {
