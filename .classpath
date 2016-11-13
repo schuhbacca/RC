@@ -22,16 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="Jars/ardulink-core-base-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-beans-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-bluetooth-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-digispark-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-mqtt-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-proxy-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-raspberry-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-serial-jssc-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-serial-rxtx-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-util-2.0.1.jar"/>
-	<classpathentry kind="lib" path="Jars/ardulink-core-virtual-2.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
