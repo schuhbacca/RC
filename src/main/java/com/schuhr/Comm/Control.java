@@ -15,8 +15,8 @@ public class Control implements Runnable {
 	private String threadName = "";
 	private Arduino arduino;
 
-	public Control() {
-
+	public Control(String tName) {
+		threadName = tName;
 	}
 
 	public void run() {
