@@ -1,9 +1,11 @@
 package com.schuhr.Comm;
 
+import org.ardulink.core.Link;
+import org.ardulink.core.convenience.Links;
 
 public class Arduino {
 
-	//Link link;
+	Link link;
 	
 	public Arduino(){
 		
@@ -42,7 +44,7 @@ public class Arduino {
 	
 	public void Connect(){
 		//Dont' know if this will actually work?
-		//link = Links.getDefault(); //Returns the first serial port
+		link = Links.getDefault(); //Returns the first serial port
 	}
 	
 	public void MoveForward(){
